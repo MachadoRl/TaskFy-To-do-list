@@ -9,6 +9,6 @@ Nesse projeto eu aprimorei meu uso do Bootstrap e JavaScript. Com a conlusão de
 ## Screenshots
 
 ![App Screenshot](imgProjeto/print1.png)
+![App Screenshot](imgProjeto/print4.png)
 ![App Screenshot](imgProjeto/print2.png)
 ![App Screenshot](imgProjeto/print3.png)
-![App Screenshot](imgProjeto/print4.png)
