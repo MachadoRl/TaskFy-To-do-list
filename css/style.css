@@ -1,0 +1,80 @@
+:root {
+    --bg-taskfy: #F3F3F3;
+}
+
+.bg-taskfy {
+    background-color: var(--bg-taskfy);
+}
+
+.limitador-mobile {
+    max-width: 360px;
+}
+
+#nenhuma-tarefa {
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+#lista-tarefas {
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.animar-fade {
+    animation: fadeIn 0.4s ease-out;
+}
+
+.animar-slide {
+    animation: slideIn 0.3s ease-out;
+}
+
+.marcado {
+    text-decoration: line-through;
+    color: #00000050;
+}
+
+.bloco-item {
+    transition: all 0.3s ease-in-out;
+}
+
+.bloco-item:hover {
+    background-color: rgba(36, 131, 255, 0.37);
+    transform: scale(1.02);
+}
+
+.tarefa-texto {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-width: 0;
+}
+
+.form-check {
+    min-width: 0;
+}
+
+.form-check-label {
+    min-width: 0;
+}
